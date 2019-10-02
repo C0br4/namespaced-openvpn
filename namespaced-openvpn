@@ -31,7 +31,7 @@ LOG = logging.getLogger()
 DEFAULT_NAMESPACE = "protected"
 
 OPENVPN_CMD = '/usr/sbin/openvpn'
-IP_CMD = '/sbin/ip'
+IP_CMD = '/bin/ip'
 NSENTER_CMD = '/usr/bin/nsenter'
 MOUNT_CMD = '/bin/mount'
 UMOUNT_CMD = '/bin/umount'
